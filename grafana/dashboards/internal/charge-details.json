@@ -1003,7 +1003,7 @@
           "editorMode": "code",
           "format": "time_series",
           "rawQuery": true,
-          "rawSql": "SELECT\n\t$__time(date),\n\tunnest(ARRAY[latitude, latitude]) AS latitude,\n\tunnest(ARRAY[longitude, longitude]) AS longitude\nFROM\n\tcharging_processes c\n\tJOIN positions p ON c.position_id = p.id\nWHERE\n\t$__timeFilter(date)\n\tAND c.car_id = $car_id;",
+          "rawSql": "WITH converted AS (\n    SELECT\n        p.date AS time, \n        gcj.new_lat AS latitude,\n        gcj.new_lon AS longitude\n    FROM charging_processes c\n    JOIN positions p ON c.position_id = p.id\n    CROSS JOIN LATERAL wgs84_to_gcj02(p.longitude,p.latitude) AS gcj\n    WHERE\n        $__timeFilter(p.date)\n        AND c.car_id = $car_id\n        AND p.latitude IS NOT NULL\n        AND p.longitude IS NOT NULL\n)\nSELECT\n    $__time(time),\n    unnest(ARRAY[latitude, latitude]) AS latitude,\n    unnest(ARRAY[longitude, longitude]) AS longitude\nFROM converted;",
           "refId": "A",
           "sql": {
             "columns": [

@@ -177,7 +177,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "SELECT\n  date_trunc('minute', timezone('UTC', date), '$__timezone') as time,\n  avg(latitude) as latitude,\n  avg(longitude) as longitude\nFROM\n  positions\nWHERE\n  car_id = $car_id AND $__timeFilter(date) and ideal_battery_range_km is not null\nGROUP BY 1\nORDER BY 1",
+          "rawSql": "WITH covert_postions  AS (  \nSELECT\n  date_trunc('minute', timezone('UTC', date), '$__timezone') as time,\n  (wgs84_to_gcj02(longitude,latitude )).new_lat AS latitude,\n  (wgs84_to_gcj02(longitude,latitude)).new_lon AS longitude\nFROM\n  positions\nWHERE\n  car_id = $car_id AND $__timeFilter(date) and ideal_battery_range_km is not null)\nSELECT\n  time,\n  avg(latitude) as latitude,\n  avg(longitude) as longitude\nFROM\n  covert_postions\nGROUP BY 1\nORDER BY 1",
           "refId": "Positions",
           "sql": {
             "columns": [
