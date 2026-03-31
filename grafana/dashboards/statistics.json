@@ -296,7 +296,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "距离"
               },
               {
                 "id": "custom.minWidth",
@@ -316,7 +316,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Temp"
+                "value": "温度"
               },
               {
                 "id": "thresholds",
@@ -358,7 +358,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "距离"
               },
               {
                 "id": "unit",
@@ -458,7 +458,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Temp"
+                "value": "温度"
               },
               {
                 "id": "unit",
@@ -662,7 +662,7 @@
         "sortBy": [
           {
             "desc": true,
-            "displayName": "Starting at"
+            "displayName": "开始时间"
           }
         ]
       },
@@ -1090,25 +1090,25 @@
               "avg_energy_charged_kwh": "Ø Energy used / Charge",
               "avg_outside_temp_c": "",
               "avg_outside_temp_f": "",
-              "cnt": "# of Drives",
-              "cnt_charges": "# of Charges",
+              "cnt": "行驶次数",
+              "cnt_charges": "充电次数",
               "consumption_gross_km": "",
               "consumption_gross_mi": "",
               "consumption_net_km": "",
               "consumption_net_mi": "",
-              "cost_charges": "Costs",
+              "cost_charges": "费用",
               "date": "",
               "date_from": "",
               "date_to": "",
-              "display": "Period",
-              "efficiency": "Driving Efficiency",
+              "display": "周期",
+              "efficiency": "行驶效率",
               "is_incomplete": "Data Complete",
-              "overhead_pct_km": "Consumption OH",
-              "overhead_pct_mi": "Consumption OH",
+              "overhead_pct_km": "能耗 OH",
+              "overhead_pct_mi": "能耗 OH",
               "sum_distance_km": "",
               "sum_distance_mi": "",
-              "sum_duration_h": "Time driven",
-              "sum_energy_used_kwh": "Energy used"
+              "sum_duration_h": "行驶时长",
+              "sum_energy_used_kwh": "耗能"
             }
           }
         }
@@ -1247,7 +1247,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Statistics",
+  "title": "统计数据",
   "uid": "1EZnXszMk",
   "version": 1,
   "weekStart": ""
