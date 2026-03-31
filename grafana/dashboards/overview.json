@@ -167,7 +167,7 @@
           }
         }
       ],
-      "title": "Battery Level",
+      "title": "电池电量",
       "transformations": [
         {
           "id": "configFromData",
@@ -304,7 +304,7 @@
           }
         }
       ],
-      "title": "Charging Voltage",
+      "title": "充电电压",
       "type": "gauge"
     },
     {
@@ -415,7 +415,7 @@
           }
         }
       ],
-      "title": "Charging Power",
+      "title": "充电功率",
       "transformations": [
         {
           "id": "configFromData",
@@ -506,7 +506,7 @@
       "links": [
         {
           "targetBlank": true,
-          "title": "Charge Level",
+          "title": "能量折线图",
           "url": "/d/WopVO_mgz/charge-level?${__url_time_range}"
         }
       ],
@@ -558,7 +558,7 @@
           }
         }
       ],
-      "title": "Charge Level",
+      "title": "能量折线图",
       "type": "timeseries"
     },
     {
@@ -669,7 +669,7 @@
           }
         }
       ],
-      "title": "Ø Consumption (net)",
+      "title": "Ø 能耗 (net)",
       "type": "stat"
     },
     {
@@ -772,7 +772,7 @@
           }
         }
       ],
-      "title": "Ø Consumption (gross)",
+      "title": "Ø 能耗 (gross)",
       "type": "stat"
     },
     {
@@ -883,7 +883,7 @@
           }
         }
       ],
-      "title": "Total Distance logged",
+      "title": "总记录距离",
       "type": "stat"
     },
     {
@@ -1109,7 +1109,7 @@
           }
         }
       ],
-      "title": "Firmware",
+      "title": "固件版本",
       "type": "stat"
     },
     {
@@ -1227,7 +1227,7 @@
           }
         }
       ],
-      "title": "Odometer",
+      "title": "里程表",
       "type": "stat"
     },
     {
@@ -1315,7 +1315,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Power"
+                "value": "充电功率"
               },
               {
                 "id": "unit",
@@ -1335,7 +1335,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Battery heater"
+                "value": "电池加热器"
               },
               {
                 "id": "custom.axisPlacement",
@@ -1355,7 +1355,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Current"
+                "value": "实际电流"
               },
               {
                 "id": "unit",
@@ -1375,7 +1375,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy added"
+                "value": "已充电量"
               },
               {
                 "id": "unit",
@@ -1395,7 +1395,7 @@
       "links": [
         {
           "targetBlank": true,
-          "title": "Charging Stats",
+          "title": "充电状态",
           "url": "/d/-pkIkhmRz/charging-stats?${__url_time_range}"
         }
       ],
@@ -1475,7 +1475,7 @@
           }
         }
       ],
-      "title": "Charging Details",
+      "title": "充电详情",
       "type": "timeseries"
     },
     {
@@ -1558,7 +1558,7 @@
           }
         }
       ],
-      "title": "Driver Temp",
+      "title": "驾驶位温度",
       "transformations": [
         {
           "id": "filterFieldsByName",
@@ -1652,7 +1652,7 @@
           }
         }
       ],
-      "title": "Outside Temp",
+      "title": "外部温度",
       "type": "gauge"
     },
     {
@@ -1715,7 +1715,7 @@
           "refId": "A"
         }
       ],
-      "title": "Inside Temp",
+      "title": "车内温度",
       "transformations": [
         {
           "id": "filterFieldsByName",
@@ -1756,41 +1756,41 @@
                 "0": {
                   "color": "#6ED0E0",
                   "index": 0,
-                  "text": "online"
+                  "text": "在线"
                 },
                 "1": {
                   "color": "#8F3BB8",
                   "index": 1,
-                  "text": "driving"
+                  "text": "行驶中"
                 },
                 "2": {
                   "color": "#F2CC0C",
                   "index": 2,
-                  "text": "charging"
+                  "text": "充电中"
                 },
                 "3": {
                   "color": "#FFB357",
                   "index": 3,
-                  "text": "offline"
+                  "text": "离线"
                 },
                 "4": {
                   "color": "#56A64B",
                   "index": 4,
-                  "text": "asleep"
+                  "text": "睡眠中"
                 },
                 "5": {
                   "color": "#6ED0E0",
                   "index": 5,
-                  "text": "online"
+                  "text": "在线"
                 },
                 "6": {
                   "color": "#E02F44",
                   "index": 6,
-                  "text": "updating"
+                  "text": "更新中"
                 },
                 "null": {
                   "index": 7,
-                  "text": "N/A"
+                  "text": "未知状态"
                 }
               },
               "type": "value"
@@ -1822,7 +1822,7 @@
       "links": [
         {
           "targetBlank": true,
-          "title": "States",
+          "title": "状态",
           "url": "/d/xo4BNRkZz/states?${__url_time_range}"
         }
       ],
@@ -1874,7 +1874,7 @@
           }
         }
       ],
-      "title": "States",
+      "title": "状态",
       "type": "state-timeline"
     }
   ],
@@ -1980,7 +1980,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Overview",
+  "title": "概览",
   "uid": "kOuP_Fggz",
   "version": 1,
   "weekStart": ""
