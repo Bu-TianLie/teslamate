@@ -147,7 +147,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Mileage"
+                "value": "里程"
               }
             ]
           }
@@ -208,7 +208,7 @@
           }
         }
       ],
-      "title": "Mileage",
+      "title": "里程",
       "type": "timeseries"
     }
   ],
@@ -280,7 +280,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Mileage",
+  "title": "里程",
   "uid": "NjtMTFggz",
   "version": 1,
   "weekStart": ""

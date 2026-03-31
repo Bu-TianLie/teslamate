@@ -198,7 +198,7 @@
           }
         }
       ],
-      "title": "",
+      "title": "地图",
       "type": "geomap"
     },
     {
@@ -558,7 +558,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Visited",
+  "title": "足迹",
   "uid": "RG_DxSmgk",
   "version": 1,
   "weekStart": ""

@@ -134,7 +134,7 @@
           }
         }
       ],
-      "title": "# of Charges",
+      "title": "充电次数",
       "type": "stat"
     },
     {
@@ -219,7 +219,7 @@
           }
         }
       ],
-      "title": "Total Energy added",
+      "title": "总充电量",
       "type": "stat"
     },
     {
@@ -391,7 +391,7 @@
           }
         }
       ],
-      "title": "Total Charging Cost",
+      "title": "累计充电总费用",
       "type": "stat"
     },
     {
@@ -471,7 +471,7 @@
           }
         }
       ],
-      "title": "Ø Cost per 100 $length_unit",
+      "title": "每百 $length_unit 费用",
       "type": "stat"
     },
     {
@@ -553,7 +553,7 @@
           }
         }
       ],
-      "title": "Ø Cost per kWh",
+      "title": "平均每度电单价",
       "type": "stat"
     },
     {
@@ -635,7 +635,7 @@
           }
         }
       ],
-      "title": "Ø Cost per kWh DC",
+      "title": "平均直流电成本",
       "type": "stat"
     },
     {
@@ -717,7 +717,7 @@
           }
         }
       ],
-      "title": "Ø Cost per kWh AC",
+      "title": "平均交流电成本",
       "type": "stat"
     },
     {
@@ -825,7 +825,7 @@
         }
       ],
       "timeFrom": "6M",
-      "title": "Charge Heatmap",
+      "title": "充电热力图",
       "type": "heatmap"
     },
     {
@@ -1009,7 +1009,7 @@
         }
       ],
       "timeFrom": "6M",
-      "title": "Charge Delta",
+      "title": "充电变化量",
       "transformations": [
         {
           "id": "configFromData",
@@ -1167,7 +1167,7 @@
           }
         }
       ],
-      "title": "AC/DC - Energy Used",
+      "title": "AC/DC 能耗",
       "type": "piechart"
     },
     {
@@ -1346,7 +1346,7 @@
           }
         }
       ],
-      "title": "Charging heat map by kWh",
+      "title": "充电热力图",
       "type": "geomap"
     },
     {
@@ -1472,7 +1472,7 @@
           }
         }
       ],
-      "title": "AC/DC - Duration",
+      "title": "AC/DC 充电时长",
       "type": "piechart"
     },
     {
@@ -1761,7 +1761,7 @@
               },
               {
                 "id": "displayName",
-                "value": "SOC"
+                "value": "电量"
               },
               {
                 "id": "custom.cellOptions",
@@ -1783,7 +1783,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "# of Charges"
+                "value": "充电次数"
               },
               {
                 "id": "custom.cellOptions",
@@ -1952,7 +1952,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "SOC"
+                "value": "电量"
               },
               {
                 "id": "unit",
@@ -1998,7 +1998,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "# of Discharges"
+                "value": "放电次数"
               },
               {
                 "id": "custom.cellOptions",
@@ -2106,7 +2106,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Location"
+                "value": "地点"
               }
             ]
           },
@@ -2118,7 +2118,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Charged"
+                "value": "充电量"
               },
               {
                 "id": "custom.width",
@@ -2182,7 +2182,7 @@
           }
         }
       ],
-      "title": "Top Charging Stations (Charged)",
+      "title": "充电排行 (按电量)",
       "type": "table"
     },
     {
@@ -2226,7 +2226,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Location"
+                "value": "位置"
               }
             ]
           },
@@ -2238,7 +2238,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Cost"
+                "value": "费用"
               },
               {
                 "id": "custom.width",
@@ -2298,7 +2298,7 @@
           }
         }
       ],
-      "title": "Top Charging Stations (Cost)",
+      "title": "充电站 (按费用)",
       "type": "table"
     }
   ],

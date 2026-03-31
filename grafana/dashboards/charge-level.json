@@ -66,7 +66,7 @@
             "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
-            "axisLabel": "Charge Level",
+            "axisLabel": "能量百分比",
             "axisPlacement": "auto",
             "barAlignment": 0,
             "barWidthFactor": 0.6,
@@ -226,7 +226,7 @@
           }
         }
       ],
-      "title": "Charge Level",
+      "title": "能量折线图",
       "transformations": [
         {
           "id": "configFromData",
@@ -371,7 +371,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Charge Level",
+  "title": "能量折线图",
   "uid": "WopVO_mgz",
   "version": 1,
   "weekStart": ""

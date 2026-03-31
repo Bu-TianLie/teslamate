@@ -236,7 +236,7 @@
           }
         }
       ],
-      "title": "Projected Range - Mileage",
+      "title": "预估续航里程 - 里程表",
       "type": "timeseries"
     },
     {
@@ -409,7 +409,7 @@
           }
         }
       ],
-      "title": "Projected Range - Battery Level",
+      "title": "预估续航里程 - 电池余量",
       "type": "timeseries"
     },
     {
@@ -610,7 +610,7 @@
           }
         }
       ],
-      "title": "Projected Range - Outdoor Temp",
+      "title": "预估续航里程 - 室外温度",
       "type": "timeseries"
     }
   ],
@@ -763,7 +763,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Projected Range",
+  "title": "预估续航里程",
   "uid": "riqUfXgRz",
   "version": 1,
   "weekStart": ""

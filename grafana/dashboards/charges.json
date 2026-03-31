@@ -92,7 +92,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Total Energy added:"
+                "value": "充电度数:"
               }
             ]
           }
@@ -191,7 +191,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Total Energy used:"
+                "value": "总能耗:"
               }
             ]
           }
@@ -291,7 +291,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Total Charging Cost:"
+                "value": "总充电费用:"
               }
             ]
           }
@@ -391,7 +391,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Duration:"
+                "value": "平均时长:"
               }
             ]
           }
@@ -497,7 +497,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Date"
+                "value": "日期"
               },
               {
                 "id": "links",
@@ -527,7 +527,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy added"
+                "value": "充电度数"
               },
               {
                 "id": "decimals",
@@ -595,7 +595,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Duration"
+                "value": "时长"
               },
               {
                 "id": "unit",
@@ -619,7 +619,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Temp"
+                "value": "温度"
               },
               {
                 "id": "unit",
@@ -669,7 +669,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Cost"
+                "value": "费用"
               },
               {
                 "id": "decimals",
@@ -727,7 +727,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Location"
+                "value": "地址"
               },
               {
                 "id": "links",
@@ -753,7 +753,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range gained"
+                "value": "增加里程"
               },
               {
                 "id": "decimals",
@@ -777,7 +777,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range gained"
+                "value": "增加续航"
               },
               {
                 "id": "decimals",
@@ -801,7 +801,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Power"
+                "value": "平均功率"
               },
               {
                 "id": "unit",
@@ -851,7 +851,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Charge rate"
+                "value": "平均充电速率"
               },
               {
                 "id": "unit",
@@ -875,7 +875,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Temp"
+                "value": "温度"
               },
               {
                 "id": "unit",
@@ -925,7 +925,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Charge rate"
+                "value": "平均充电速率"
               },
               {
                 "id": "unit",
@@ -961,7 +961,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy used"
+                "value": "使用能量"
               },
               {
                 "id": "decimals",
@@ -981,7 +981,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Efficiency"
+                "value": "效率"
               },
               {
                 "id": "unit",
@@ -1046,7 +1046,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Cost / kWh"
+                "value": "每度电成本"
               },
               {
                 "id": "decimals",
@@ -1070,7 +1070,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Type"
+                "value": "类型"
               },
               {
                 "id": "custom.cellOptions",
@@ -1118,7 +1118,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Odometer"
+                "value": "里程表"
               },
               {
                 "id": "custom.minWidth",
@@ -1142,7 +1142,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Odometer"
+                "value": "里程表"
               },
               {
                 "id": "custom.minWidth",
@@ -1505,7 +1505,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Charges",
+  "title": "充电记录",
   "uid": "TSmNYvRRk",
   "version": 1,
   "weekStart": ""

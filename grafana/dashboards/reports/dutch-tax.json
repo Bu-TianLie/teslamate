@@ -102,7 +102,7 @@
               },
               {
                 "id": "displayName",
-                "value": "ID"
+                "value": "编号"
               }
             ]
           },
@@ -154,7 +154,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start Time"
+                "value": "开始时间"
               }
             ]
           },
@@ -170,7 +170,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Start Odometer"
+                "value": "起始里程"
               }
             ]
           },
@@ -186,7 +186,7 @@
               },
               {
                 "id": "displayName",
-                "value": "End Odometer"
+                "value": "结束里程"
               }
             ]
           },
@@ -198,7 +198,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "End Time"
+                "value": "结束时间"
               }
             ]
           },
@@ -225,7 +225,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Duration"
+                "value": "时长"
               },
               {
                 "id": "custom.width",
@@ -245,7 +245,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "距离"
               }
             ]
           },
@@ -261,7 +261,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "距离"
               }
             ]
           },
@@ -273,7 +273,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start Address"
+                "value": "起始地址"
               }
             ]
           },
@@ -285,7 +285,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "End Address"
+                "value": "结束地址"
               }
             ]
           }
@@ -339,7 +339,7 @@
           }
         }
       ],
-      "title": "Drive",
+      "title": "行程",
       "type": "table"
     }
   ],
@@ -445,7 +445,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Drives - Dutch tax",
+  "title": "行程 - Dutch tax",
   "uid": "lBIoQIggk",
   "version": 1,
   "weekStart": ""

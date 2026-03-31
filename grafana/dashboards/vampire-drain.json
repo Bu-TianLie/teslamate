@@ -96,7 +96,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start"
+                "value": "起始时间"
               },
               {
                 "id": "unit",
@@ -126,7 +126,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "End"
+                "value": "结束时间"
               },
               {
                 "id": "unit",
@@ -146,7 +146,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range loss"
+                "value": "续航损失"
               },
               {
                 "id": "unit",
@@ -170,7 +170,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Period"
+                "value": "历时"
               },
               {
                 "id": "unit",
@@ -216,7 +216,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Range loss / h"
+                "value": "每小时续航损失"
               },
               {
                 "id": "unit",
@@ -252,7 +252,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Standby"
+                "value": "待机"
               },
               {
                 "id": "unit",
@@ -326,7 +326,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Power"
+                "value": "平均损失功率"
               },
               {
                 "id": "unit",
@@ -350,7 +350,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Range loss / h"
+                "value": "每小时续航损失"
               },
               {
                 "id": "unit",
@@ -374,7 +374,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range loss"
+                "value": "续航损失"
               },
               {
                 "id": "unit",
@@ -503,7 +503,7 @@
           }
         }
       ],
-      "title": "Vampire Drain",
+      "title": "电池吸血鬼",
       "transformations": [
         {
           "id": "merge",
@@ -547,7 +547,7 @@
           "value": "6"
         },
         "includeAll": false,
-        "label": "min. Idle Time (h)",
+        "label": "最小闲置时间 (h)",
         "name": "duration",
         "options": [],
         "query": "0,1,3,6,12,18,24",
@@ -613,7 +613,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Vampire Drain",
+  "title": "电池吸血鬼",
   "uid": "zhHx2Fggk",
   "version": 1,
   "weekStart": ""

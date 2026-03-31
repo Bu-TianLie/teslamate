@@ -98,7 +98,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Total Energy consumed (net):"
+                "value": "总能耗 (net):"
               }
             ]
           }
@@ -198,7 +198,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Total Duration:"
+                "value": "总时长:"
               }
             ]
           }
@@ -301,7 +301,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Total Distance logged:"
+                "value": "总记录距离:"
               }
             ]
           },
@@ -317,7 +317,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Total Distance logged:"
+                "value": "总记录距离:"
               }
             ]
           }
@@ -422,7 +422,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net):"
+                "value": "平均能耗 (net):"
               }
             ]
           },
@@ -438,7 +438,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net):"
+                "value": "平均能耗 (net):"
               }
             ]
           }
@@ -582,7 +582,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Date"
+                "value": "日期时间"
               },
               {
                 "id": "unit",
@@ -612,7 +612,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "能耗 (net)"
               },
               {
                 "id": "unit",
@@ -632,7 +632,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "能耗 (net)"
               },
               {
                 "id": "unit",
@@ -652,7 +652,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "公里"
               },
               {
                 "id": "unit",
@@ -676,7 +676,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy consumed (net)"
+                "value": "电量"
               },
               {
                 "id": "unit",
@@ -726,7 +726,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start"
+                "value": "起点"
               },
               {
                 "id": "links",
@@ -752,7 +752,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Destination"
+                "value": "终点"
               },
               {
                 "id": "links",
@@ -778,7 +778,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Temp"
+                "value": "温度"
               },
               {
                 "id": "unit",
@@ -828,7 +828,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Duration"
+                "value": "时长"
               },
               {
                 "id": "unit",
@@ -852,7 +852,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Efficiency"
+                "value": "能效"
               },
               {
                 "id": "unit",
@@ -928,7 +928,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Speed"
+                "value": "平均速度"
               },
               {
                 "id": "unit",
@@ -952,7 +952,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "mi"
               },
               {
                 "id": "unit",
@@ -976,7 +976,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Temp"
+                "value": "温度"
               },
               {
                 "id": "unit",
@@ -1026,7 +1026,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Speed"
+                "value": "平均速度"
               },
               {
                 "id": "unit",
@@ -1050,7 +1050,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "max Speed"
+                "value": "最高速度"
               },
               {
                 "id": "unit",
@@ -1074,7 +1074,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "max Speed"
+                "value": "最高速度"
               },
               {
                 "id": "unit",
@@ -1137,6 +1137,10 @@
                 "value": "percent"
               },
               {
+                "id": "displayName",
+                "value": "出发电量%"
+              },
+              {
                 "id": "decimals",
                 "value": 0
               },
@@ -1155,6 +1159,10 @@
               {
                 "id": "unit",
                 "value": "percent"
+              },
+              {
+                "id": "displayName",
+                "value": "到达电量%"
               },
               {
                 "id": "decimals",
@@ -1232,7 +1240,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "max Power"
+                "value": "最大功率"
               },
               {
                 "id": "unit",
@@ -1463,7 +1471,7 @@
           "value": ""
         },
         "description": "Type a text contained in Start or Destination Location",
-        "label": "Location",
+        "label": "位置",
         "name": "location",
         "options": [
           {
@@ -1550,7 +1558,7 @@
           "text": "0",
           "value": "0"
         },
-        "label": "Distance >=",
+        "label": "距离 >=",
         "name": "min_dist",
         "options": [
           {
@@ -1567,7 +1575,7 @@
           "text": "0",
           "value": "0"
         },
-        "label": "Speed >=",
+        "label": "速度 >=",
         "name": "min_speed",
         "options": [
           {
@@ -1601,7 +1609,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Drives",
+  "title": "行程",
   "uid": "Y8upc6ZRk",
   "version": 1,
   "weekStart": ""

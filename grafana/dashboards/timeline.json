@@ -102,6 +102,10 @@
             },
             "properties": [
               {
+                "id": "displayName",
+                "value": "开始时间"
+              },
+              {
                 "id": "unit",
                 "value": "dateTimeAsLocal"
               },
@@ -200,6 +204,10 @@
             },
             "properties": [
               {
+                "id": "displayName",
+                "value": "耗电量"
+              },
+              {
                 "id": "custom.width",
                 "value": 100
               },
@@ -213,7 +221,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Energy Diff"
+                "value": "能量差值"
               }
             ]
           },
@@ -223,6 +231,10 @@
               "options": "Duration"
             },
             "properties": [
+              {
+                "id": "displayName",
+                "value": "持续时间"
+              },
               {
                 "id": "unit",
                 "value": "m"
@@ -240,11 +252,15 @@
             },
             "properties": [
               {
+                "id": "displayName",
+                "value": "出发地"
+              },
+              {
                 "id": "links",
                 "value": [
                   {
                     "targetBlank": true,
-                    "title": "Create or edit geo-fence",
+                    "title": "创建或编辑收藏点",
                     "url": "${base_url:raw}/geo-fences/${__data.fields.start_path:raw}"
                   }
                 ]
@@ -266,11 +282,15 @@
             },
             "properties": [
               {
+                "id": "displayName",
+                "value": "目的地"
+              },
+              {
                 "id": "links",
                 "value": [
                   {
                     "targetBlank": true,
-                    "title": "Create or edit geo-fence",
+                    "title": "创建或编辑收藏点",
                     "url": "${base_url:raw}/geo-fences/${__data.fields.end_path:raw}"
                   }
                 ]
@@ -377,7 +397,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Odometer"
+                "value": "里程表"
               },
               {
                 "id": "custom.width",
@@ -393,7 +413,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "距离"
               },
               {
                 "id": "custom.width",
@@ -413,7 +433,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range Diff"
+                "value": "续航差值"
               },
               {
                 "id": "custom.width",
@@ -433,7 +453,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Temp"
+                "value": "温度"
               },
               {
                 "id": "custom.width",
@@ -453,7 +473,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range"
+                "value": "续航里程"
               },
               {
                 "id": "custom.width",
@@ -467,6 +487,10 @@
               "options": "Action"
             },
             "properties": [
+              {
+                "id": "displayName",
+                "value": "状态"
+              },
               {
                 "id": "links",
                 "value": [
@@ -541,7 +565,7 @@
           }
         }
       ],
-      "title": "Timeline",
+      "title": "时间线",
       "transformations": [
         {
           "id": "organize",
@@ -728,7 +752,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Timeline",
+  "title": "时间线",
   "uid": "SUBgwtigz",
   "version": 1,
   "weekStart": ""
