@@ -23,7 +23,7 @@
       "icon": "doc",
       "tags": [],
       "targetBlank": true,
-      "title": "Select last three drives",
+      "title": "选择最近的3段行程",
       "type": "link",
       "url": "/d/FkUpJpQZk/trip?from=$from"
     },
@@ -237,7 +237,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Mileage"
+                "value": "行程距离"
               }
             ]
           },
@@ -253,7 +253,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Mileage"
+                "value": "行程距离"
               }
             ]
           }
@@ -357,6 +357,10 @@
                   "fixedColor": "#73BF69",
                   "mode": "fixed"
                 }
+              },
+                {
+                  "id": "displayName",
+                  "value": "交流充电"
               }
             ]
           },
@@ -372,6 +376,10 @@
                   "fixedColor": "#FADE2A",
                   "mode": "fixed"
                 }
+              },
+              {
+                "id": "displayName",
+                "value": "直流充电"
               }
             ]
           },
@@ -387,6 +395,10 @@
                   "fixedColor": "#5794F2",
                   "mode": "fixed"
                 }
+              },
+              {
+                "id": "displayName",
+                "value": "行驶中"
               }
             ]
           }
@@ -534,7 +546,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Speed excl. breaks"
+                "value": "平均速度（不含休息）"
               }
             ]
           },
@@ -550,7 +562,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Speed excl. breaks"
+                "value": "平均速度（不含休息）"
               }
             ]
           }
@@ -652,7 +664,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Speed incl. DC charging"
+                "value": "平均速度（含充电）"
               }
             ]
           },
@@ -668,7 +680,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Speed incl. DC charging"
+                "value": "平均速度（含充电）"
               }
             ]
           }
@@ -771,7 +783,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "净能耗"
               }
             ]
           },
@@ -787,7 +799,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "净能耗"
               }
             ]
           }
@@ -891,7 +903,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (gross)"
+                "value": "总能耗"
               }
             ]
           },
@@ -907,7 +919,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Ø Consumption (gross)"
+                "value": "总能耗"
               }
             ]
           }
@@ -999,6 +1011,7 @@
       "fieldConfig": {
         "defaults": {
           "decimals": 2,
+          "displayName": "费用",
           "mappings": [
             {
               "options": {
@@ -1376,41 +1389,41 @@
                 "0": {
                   "color": "#6ED0E0",
                   "index": 0,
-                  "text": "online"
+                  "text": "在线"
                 },
                 "1": {
                   "color": "#8F3BB8",
                   "index": 1,
-                  "text": "driving"
+                  "text": "行驶中"
                 },
                 "2": {
                   "color": "#F2CC0C",
                   "index": 2,
-                  "text": "charging"
+                  "text": "充电中"
                 },
                 "3": {
                   "color": "#FFB357",
                   "index": 3,
-                  "text": "offline"
+                  "text": "离线"
                 },
                 "4": {
                   "color": "#56A64B",
                   "index": 4,
-                  "text": "asleep"
+                  "text": "休眠中"
                 },
                 "5": {
                   "color": "#6ED0E0",
                   "index": 5,
-                  "text": "online"
+                  "text": "在线"
                 },
                 "6": {
                   "color": "#E02F44",
                   "index": 6,
-                  "text": "updating"
+                  "text": "升级中"
                 },
                 "null": {
                   "index": 7,
-                  "text": "N/A"
+                  "text": "未知状态"
                 }
               },
               "type": "value"
@@ -1534,7 +1547,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Date"
+                "value": "日期时间"
               },
               {
                 "id": "unit",
@@ -1545,7 +1558,7 @@
                 "value": [
                   {
                     "targetBlank": false,
-                    "title": "View drive details",
+                    "title": "查看行程详情",
                     "url": "/d/zm7wN6Zgz/drive-details?from=${__data.fields.start_date_ts.numeric}&to=${__data.fields.end_date_ts.numeric}&var-car_id=${__data.fields.car_id.numeric}&var-drive_id=${__data.fields.drive_id.numeric}"
                   }
                 ]
@@ -1564,7 +1577,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "电耗"
               },
               {
                 "id": "unit",
@@ -1588,7 +1601,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "能耗"
               },
               {
                 "id": "unit",
@@ -1612,7 +1625,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Distance"
+                "value": "行驶距离"
               },
               {
                 "id": "unit",
@@ -1636,14 +1649,14 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start"
+                "value": "起点"
               },
               {
                 "id": "links",
                 "value": [
                   {
                     "targetBlank": true,
-                    "title": "Create or edit geo-fence",
+                    "title": "创建或编辑地理围栏",
                     "url": "${base_url:raw}/geo-fences/${__data.fields.start_path}"
                   }
                 ]
@@ -1662,14 +1675,14 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Destination"
+                "value": "目的地"
               },
               {
                 "id": "links",
                 "value": [
                   {
                     "targetBlank": true,
-                    "title": "Create or edit geo-fence",
+                    "title": "创建或编辑地理围栏",
                     "url": "${base_url:raw}/geo-fences/${__data.fields.end_path}"
                   }
                 ]
@@ -1688,7 +1701,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Duration"
+                "value": "时长"
               },
               {
                 "id": "unit",
@@ -1756,6 +1769,10 @@
             },
             "properties": [
               {
+                "id": "displayName",
+                "value": "出发电量 %"
+              },
+              {
                 "id": "unit",
                 "value": "percent"
               },
@@ -1779,6 +1796,10 @@
               "options": "% End"
             },
             "properties": [
+              {
+                "id": "displayName",
+                "value": "到达电量 %"
+              },
               {
                 "id": "unit",
                 "value": "percent"
@@ -1824,7 +1845,7 @@
         "sortBy": [
           {
             "desc": true,
-            "displayName": "Date"
+            "displayName": "日期时间"
           }
         ]
       },
@@ -1859,7 +1880,7 @@
           }
         }
       ],
-      "title": "Drives",
+      "title": "行程",
       "type": "table"
     },
     {
@@ -1909,7 +1930,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Date"
+                "value": "日期时间"
               },
               {
                 "id": "unit",
@@ -1939,7 +1960,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy added"
+                "value": "充电量"
               },
               {
                 "id": "decimals",
@@ -1959,7 +1980,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "% Start"
+                "value": "充电前 %"
               },
               {
                 "id": "unit",
@@ -1983,7 +2004,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "% End"
+                "value": "充电后 %"
               },
               {
                 "id": "unit",
@@ -2007,7 +2028,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Duration"
+                "value": "充电时长"
               },
               {
                 "id": "unit",
@@ -2031,7 +2052,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Cost"
+                "value": "费用"
               },
               {
                 "id": "unit",
@@ -2046,7 +2067,7 @@
                 "value": [
                   {
                     "targetBlank": false,
-                    "title": "Set Cost",
+                    "title": "设置费用",
                     "url": "${base_url:raw}/charge-cost/${__data.fields.id.numeric:raw}"
                   }
                 ]
@@ -2089,14 +2110,14 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Location"
+                "value": "地点"
               },
               {
                 "id": "links",
                 "value": [
                   {
                     "targetBlank": true,
-                    "title": "Create or edit geo-fence",
+                    "title": "创建或编辑地理围栏",
                     "url": "${base_url:raw}/geo-fences/${__data.fields.path}"
                   }
                 ]
@@ -2115,7 +2136,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range gained"
+                "value": "增加的续航里程"
               },
               {
                 "id": "unit",
@@ -2139,7 +2160,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Power"
+                "value": "功率"
               },
               {
                 "id": "unit",
@@ -2189,7 +2210,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range gained"
+                "value": "增加的续航里程"
               },
               {
                 "id": "unit",
@@ -2225,7 +2246,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy used"
+                "value": "用电量"
               },
               {
                 "id": "decimals",
@@ -2299,7 +2320,7 @@
           }
         }
       ],
-      "title": "Charges",
+      "title": "充电",
       "transformations": [
         {
           "id": "merge",
@@ -2420,7 +2441,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range (ideal)"
+                "value": "续航里程 (额定)"
               }
             ]
           },
@@ -2432,7 +2453,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range (rated)"
+                "value": "续航里程 (典型)"
               }
             ]
           }
@@ -2493,7 +2514,7 @@
           }
         }
       ],
-      "title": "Battery Level & Range",
+      "title": "电池水平及续航里程",
       "type": "timeseries"
     },
     {
@@ -2589,7 +2610,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Elevation"
+                "value": "海拔"
               },
               {
                 "id": "color",
@@ -2657,7 +2678,7 @@
           }
         }
       ],
-      "title": "Elevation",
+      "title": "海拔",
       "type": "timeseries"
     }
   ],
@@ -2799,7 +2820,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Trip",
+  "title": "旅程",
   "uid": "FkUpJpQZk",
   "version": 1,
   "weekStart": ""
