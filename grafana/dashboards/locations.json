@@ -120,7 +120,7 @@
           }
         }
       ],
-      "title": "# of Addresses",
+      "title": "总地址数",
       "transformations": [
         {
           "id": "organize",
@@ -200,7 +200,7 @@
           "refId": "A"
         }
       ],
-      "title": "# of Cities",
+      "title": "城市",
       "transformations": [
         {
           "id": "organize",
@@ -280,7 +280,7 @@
           "refId": "A"
         }
       ],
-      "title": "# of States",
+      "title": "省份",
       "transformations": [
         {
           "id": "organize",
@@ -360,7 +360,7 @@
           "refId": "A"
         }
       ],
-      "title": "# of Countries",
+      "title": "国家数量",
       "transformations": [
         {
           "id": "organize",
@@ -469,7 +469,7 @@
           }
         }
       ],
-      "title": "Cities",
+      "title": "城市",
       "type": "bargauge"
     },
     {
@@ -563,7 +563,7 @@
           }
         }
       ],
-      "title": "States",
+      "title": "省",
       "type": "bargauge"
     },
     {
@@ -648,7 +648,7 @@
         "sortBy": [
           {
             "desc": true,
-            "displayName": "Date"
+            "displayName": "日期时间"
           }
         ]
       },
@@ -683,7 +683,7 @@
           }
         }
       ],
-      "title": "Last visited",
+      "title": "最近访问",
       "type": "table"
     },
     {
@@ -752,7 +752,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Name"
+                "value": "路名"
               },
               {
                 "id": "unit",
@@ -785,7 +785,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Neighbourhood"
+                "value": "社区街道"
               },
               {
                 "id": "unit",
@@ -808,7 +808,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "City"
+                "value": "城市"
               },
               {
                 "id": "unit",
@@ -831,7 +831,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "State"
+                "value": "省"
               },
               {
                 "id": "unit",
@@ -854,7 +854,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Country"
+                "value": "国家"
               },
               {
                 "id": "unit",
@@ -928,7 +928,7 @@
           }
         }
       ],
-      "title": "Addresses",
+      "title": "地点",
       "transformations": [
         {
           "id": "merge",
@@ -986,7 +986,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Time"
+                "value": "时间"
               },
               {
                 "id": "unit",
@@ -1005,7 +1005,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Name"
+                "value": "名称"
               },
               {
                 "id": "unit",
@@ -1089,7 +1089,7 @@
           }
         }
       ],
-      "title": "Geo-fences",
+      "title": "收藏点",
       "transformations": [
         {
           "id": "merge",
@@ -1170,7 +1170,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Locations",
+  "title": "地点",
   "uid": "ZzhF-aRWz",
   "version": 1,
   "weekStart": ""
