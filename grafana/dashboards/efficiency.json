@@ -796,7 +796,7 @@
           }
         }
       ],
-      "title": "当前$preferred_range效率",
+      "title": "当前额定效率",
       "type": "stat"
     },
     {

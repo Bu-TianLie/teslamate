@@ -114,7 +114,7 @@
               },
               {
                 "id": "displayName",
-                "value": "Charging Voltage"
+                "value": "充电电压"
               },
               {
                 "id": "unit",
@@ -150,7 +150,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Power"
+                "value": "充电功率"
               },
               {
                 "id": "unit",
@@ -170,7 +170,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Battery heater"
+                "value": "电池加热器"
               },
               {
                 "id": "unit",
@@ -222,7 +222,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Range"
+                "value": "续航"
               }
             ]
           },
@@ -234,7 +234,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Current"
+                "value": "充电电流（实际）"
               },
               {
                 "id": "unit",
@@ -254,7 +254,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Current (pilot)"
+                "value": "充电电流（计划）"
               },
               {
                 "id": "unit",
@@ -306,7 +306,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Outdoor Temperature"
+                "value": "环境温度"
               }
             ]
           },
@@ -382,7 +382,7 @@
           }
         }
       ],
-      "title": "Charge Details",
+      "title": "充电详情",
       "type": "timeseries"
     },
     {
@@ -484,7 +484,7 @@
           }
         }
       ],
-      "title": "Cost",
+      "title": "充电费用",
       "type": "stat"
     },
     {
@@ -608,7 +608,7 @@
           ]
         }
       ],
-      "title": "Duration",
+      "title": "充电时长",
       "type": "stat"
     },
     {
@@ -745,7 +745,7 @@
           {
             "matcher": {
               "id": "byName",
-              "options": "Efficiency"
+              "options": "充电效率"
             },
             "properties": [
               {
@@ -868,7 +868,7 @@
           }
         }
       ],
-      "title": "Charge Energy",
+      "title": "充电电量",
       "type": "stat"
     },
     {
@@ -1174,7 +1174,7 @@
           }
         }
       ],
-      "title": "Battery Level",
+      "title": "电池电量",
       "type": "stat"
     },
     {
@@ -1258,7 +1258,7 @@
           }
         }
       ],
-      "title": "Ø Power",
+      "title": "功率",
       "type": "stat"
     },
     {
@@ -1366,7 +1366,7 @@
           }
         }
       ],
-      "title": "Ø Outdoor Temperature",
+      "title": "环境温度",
       "type": "stat"
     },
     {
@@ -1424,7 +1424,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Start"
+                "value": "开始"
               }
             ]
           },
@@ -1436,7 +1436,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Added"
+                "value": "增加"
               }
             ]
           },
@@ -1448,7 +1448,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "End"
+                "value": "结束"
               }
             ]
           }
@@ -1907,7 +1907,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Charge Details",
+  "title": "充电详情",
   "uid": "BHhxFeZRz",
   "version": 1,
   "weekStart": ""

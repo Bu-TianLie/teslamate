@@ -302,7 +302,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Energy drained"
+                "value": "电量损耗"
               },
               {
                 "id": "unit",

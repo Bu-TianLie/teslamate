@@ -669,7 +669,7 @@
           }
         }
       ],
-      "title": "Ø 能耗 (net)",
+      "title": "净能耗比",
       "type": "stat"
     },
     {
@@ -772,7 +772,7 @@
           }
         }
       ],
-      "title": "Ø 能耗 (gross)",
+      "title": "总能耗比",
       "type": "stat"
     },
     {
@@ -1004,7 +1004,7 @@
           }
         }
       ],
-      "title": "Range",
+      "title": "剩余续航",
       "type": "stat"
     },
     {

@@ -70,7 +70,44 @@
           },
           "unit": "kwatth"
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Usable (now)"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "电池容量(当前)"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Difference"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "衰减容量"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Usable (new)"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "电池容量(新车)"
+              }
+            ]
+          }
+        ]
       },
       "gridPos": {
         "h": 6,
@@ -270,7 +307,7 @@
           }
         }
       ],
-      "title": "里程 [$preferred_range]",
+      "title": "里程",
       "type": "stat"
     },
     {
@@ -295,7 +332,56 @@
             ]
           }
         },
-        "overrides": []
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Logged"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "记录里程"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Mileage"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "行驶里程"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Odometer"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "里程表"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Data lost (not logged)"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "缺失数据"
+              }
+            ]
+          }
+        ]
       },
       "gridPos": {
         "h": 6,
@@ -795,6 +881,10 @@
               {
                 "id": "unit",
                 "value": "kwatth"
+              },
+              {
+                "id": "displayName",
+                "value": "总充电"
               }
             ]
           },
@@ -807,6 +897,10 @@
               {
                 "id": "unit",
                 "value": "kwatth"
+              },
+              {
+                "id": "displayName",
+                "value": "总耗能"
               }
             ]
           },
@@ -819,6 +913,34 @@
               {
                 "id": "unit",
                 "value": "percentunit"
+              },
+              {
+                "id": "displayName",
+                "value": "充电效率"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "# of Charges"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "充电次数"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "# of Charging cycles"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "充电循环次数"
               }
             ]
           }
@@ -1004,7 +1126,7 @@
           }
         }
       ],
-      "title": "Charging Stats",
+      "title": "充电统计",
       "type": "stat"
     },
     {
@@ -1465,7 +1587,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Battery Capacity"
+                "value": "电池容量"
               },
               {
                 "id": "unit",
@@ -1634,7 +1756,10 @@
         "type": "query"
       },
       {
-        "current": {},
+        "current": {
+          "text": "km",
+          "value": "km"
+        },
         "datasource": {
           "type": "grafana-postgresql-datasource",
           "uid": "TeslaMate"
@@ -1716,7 +1841,7 @@
             "value": "0"
           }
         ],
-        "query": "0",
+        "query": "55",
         "type": "textbox"
       },
       {

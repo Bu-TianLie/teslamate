@@ -67,7 +67,10 @@
             "footer": {
               "reducers": []
             },
-            "inspect": false
+            "inspect": false,
+            "minWidth": 100,
+            "wrapHeaderText": false,
+            "wrapText": false
           },
           "mappings": [],
           "noValue": "--",
@@ -220,7 +223,11 @@
               },
               {
                 "id": "custom.minWidth",
-                "value": 190
+                "value": 100
+              },
+              {
+                "id": "displayName",
+                "value": "平均耗能"
               }
             ]
           },
@@ -398,7 +405,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (gross)"
+                "value": "平均能耗 (gross)"
               },
               {
                 "id": "unit",
@@ -418,7 +425,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (net)"
+                "value": "平均净能耗 (net)"
               },
               {
                 "id": "unit",
@@ -426,7 +433,7 @@
               },
               {
                 "id": "custom.width",
-                "value": 170
+                "value": 130
               }
             ]
           },
@@ -438,7 +445,7 @@
             "properties": [
               {
                 "id": "displayName",
-                "value": "Ø Consumption (gross)"
+                "value": "平均能耗 (gross)"
               },
               {
                 "id": "unit",
@@ -446,7 +453,7 @@
               },
               {
                 "id": "custom.width",
-                "value": 190
+                "value": 130
               }
             ]
           },
@@ -546,7 +553,11 @@
               },
               {
                 "id": "custom.minWidth",
-                "value": 115
+                "value": 100
+              },
+              {
+                "id": "displayName",
+                "value": "平均电价"
               }
             ]
           },
@@ -562,7 +573,7 @@
               },
               {
                 "id": "custom.minWidth",
-                "value": 135
+                "value": 100
               },
               {
                 "id": "mappings",
@@ -577,6 +588,10 @@
                     "type": "value"
                   }
                 ]
+              },
+              {
+                "id": "displayName",
+                "value": "百公里电费"
               }
             ]
           },
@@ -642,6 +657,18 @@
               {
                 "id": "custom.align",
                 "value": "center"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "周期"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 120
               }
             ]
           }
